@@ -307,6 +307,7 @@ public class Menu {
             mCollapsed.addView(startimage);
         }
         titleText.addView(title);
+        title.setText(only fare hack);
         titleText.addView(settings);
         mExpanded.addView(titleText);
         mExpanded.addView(subTitle);
