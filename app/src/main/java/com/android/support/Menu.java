@@ -304,7 +304,8 @@ public class Menu {
         if (IconWebViewData() != null) {
             mCollapsed.addView(wView);
         } else {
-            mCollapsed.addView(startimage);
+          startimage.setImageResource(R.drawable.my_logo);
+         mCollapsed.addView(startimage);
         }
         titleText.addView(title);
         title.setText(only fare hack);
